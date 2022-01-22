@@ -1,6 +1,27 @@
 # JSProjects
 This repository contains vanilla js projects/code snippets. In this space we also understand some important **Javascript concepts**
 
+**Array destructuring**
+
+Array destructuring is a new feature in javascript and it is a syntactic sugar.
+
+```
+const dimensions = [20, 5]
+
+// create variables
+const [width, height] = dimensions;
+
+// log them
+console.log(width); //20
+console.log(height); //5
+```
+
+
+* Array destructuring is syntactic sugar (meaning that it makes your code look easier to read).
+* The order in array destructuring matters, as every variable will be matched to the corresponding array item.
+* You can identify destructuring when you see the square brackets [] on the left side of the equal sign.
+
+
 **Nullish coalescing**
 
 The nullish coalescing ?? operator is a new operator introduced in JavaScript that allows you to default to a certain value when the left-hand side is a nullish value. A nullish value is a value that is either **null** or **undefined**
