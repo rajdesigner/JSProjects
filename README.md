@@ -1,4 +1,4 @@
-# vanillaJSProjects
+# JSProjects
 This repository contains vanilla js projects/code snippets. In this space we also understand some important **Javascript concepts**
 
 **Class in JS**
