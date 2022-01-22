@@ -1,7 +1,7 @@
 # vanillaJSProjects
 This repository contains vanilla js projects/code snippets. In this space we also understand some important **Javascript concepts**
 
-#Class in JS
+**Class in JS**
 
 Javascript doesn't have real classes. The class syntax you will see is called syntactic sugar which is a fancy term for saying that it's a syntax that makes your code more readable (like a sweetener).
 
@@ -23,7 +23,7 @@ class Rectangle {
 
 typeof(Rectangle); //"function"
 
-#class is a function
+**class is a function**
 
 Rectangle class in real. This is how we write class before class pattern added in 2015 
 
