@@ -22,7 +22,7 @@ you can only use nullish coalescing when the variable is defined. So, the variab
 
 Javascript doesn't have real classes. The class syntax you will see is called syntactic sugar which is a fancy term for saying that it's a syntax that makes your code more readable (like a sweetener).
 
-if you give **typeof(class)** you will **function**
+if you give **typeof(class)** you will get **function**
 
 ```
 class Rectangle {
