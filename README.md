@@ -39,6 +39,18 @@ console.log(getName(null)); // "N/A"
 you can only use nullish coalescing when the variable is defined. So, the variable name (or whatever variable you use to the left-hand side of the operator) has to be defined.
 
 
+**Immutability**
+An Immutable object is an object which cannot be changed. Every update creates a new value, leaving the old one untouched.
+
+````
+const grades = [10, 20];
+const gradesCopy = [...grades];
+console.log(gradesCopy); // [10, 20] (new array, not linked to 'grades'). you can make a copy of objects like it.
+
+```
+The way it works is that you're creating a new array with the [ ] syntax, and inside of this array, you're spreading the items from the grades array.
+This is called a shallow copy.
+
 **class in JS**
 
 Javascript doesn't have real classes. The class syntax you will see is called syntactic sugar which is a fancy term for saying that it's a syntax that makes your code more readable (like a sweetener).
