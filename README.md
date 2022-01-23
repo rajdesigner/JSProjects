@@ -73,6 +73,7 @@ class Rectangle {
 
 typeof(Rectangle); //"function"
 
+
 **class is a function**
 
 Rectangle class in real. This is how we write class before class pattern added in 2015 
