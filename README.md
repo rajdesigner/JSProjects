@@ -51,7 +51,7 @@ console.log(gradesCopy); // [10, 20] (new array, not linked to 'grades'). you ca
 The way it works is that you're creating a new array with the [ ] syntax, and inside of this array, you're spreading the items from the grades array.
 This is called a shallow copy.
 
-**Callback data & handling errors **
+**Callback**
 
 A callback is a function definition passed as an argument to another function.
 
